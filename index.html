@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fake Chat</title>
+<style>
+  :root {
+    --ground: #ffffff;
+    --panel: #f4f7f6;
+    --ink: #111b21;
+    --ink-soft: #46555e;
+    --rule: #e2e8e5;
+    --accent: #128c7e;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #111b21;
+      --panel: #182229;
+      --ink: #e9edef;
+      --ink-soft: #a7b6bd;
+      --rule: #2a3942;
+      --accent: #25d366;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 1.25rem 5rem;
+    background: var(--ground);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  header { padding: 4rem 0 2rem; }
+  h1 { font-size: 2.4rem; line-height: 1.1; margin: 0 0 .75rem; letter-spacing: -.02em; }
+  .lede { font-size: 1.15rem; color: var(--ink-soft); margin: 0; }
+  h2 { font-size: 1.15rem; margin: 2.5rem 0 .75rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin-bottom: .45rem; }
+  a { color: var(--accent); }
+  .note {
+    background: var(--panel);
+    border-radius: 8px;
+    padding: 1rem 1.15rem;
+    margin: 2rem 0;
+    color: var(--ink-soft);
+  }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--ink-soft); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <h1>Fake Chat</h1>
+    <p class="lede">
+      Monta conversaciones de mentira y gasta una broma. Todo se queda en tu teléfono.
+    </p>
+  </header>
+
+  <p>
+    Fake Chat sirve para crear conversaciones simuladas: inventas los contactos, escribes los
+    dos lados, añades fotos, notas de voz y grupos, y lo compartes como imagen si quieres.
+  </p>
+
+  <div class="note">
+    No es una aplicación de mensajería. No envía ni recibe mensajes reales, no se conecta a
+    ningún servicio de chat y no tiene cuentas de usuario. Cada conversación la escribes tú.
+  </div>
+
+  <h2>Qué puedes hacer</h2>
+  <ul>
+    <li>Conversaciones de dos, con las horas que tú elijas</li>
+    <li>Grupos con varios integrantes, cada uno con su nombre y color</li>
+    <li>Fotos, stickers y notas de voz grabadas de verdad</li>
+    <li>Responder citando un mensaje</li>
+    <li>Registro de llamadas y una llamada entrante simulada a pantalla completa</li>
+    <li>Estados, fondos de chat y exportar la conversación como imagen</li>
+    <li>Español e inglés</li>
+  </ul>
+
+  <h2>Privacidad</h2>
+  <p>
+    Lo que creas se guarda solo en tu teléfono y no se sube a ningún servidor.
+    Los detalles están en la
+    <a href="privacidad.html">política de privacidad</a>
+    (<a href="privacy.html">English</a>).
+  </p>
+
+  <h2>Contacto</h2>
+  <p>
+    <a href="mailto:app.dev.android.7@gmail.com">app.dev.android.7@gmail.com</a>
+  </p>
+
+  <footer>
+    Fake Chat · Camilo Romero ·
+    <a href="privacidad.html">Privacidad</a> ·
+    <a href="privacy.html">Privacy</a>
+  </footer>
+
+</main>
+</body>
+</html>
